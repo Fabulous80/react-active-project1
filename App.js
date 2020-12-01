@@ -6,12 +6,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Hello World !</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.text}>Hello World !</Text>
+      <StatusBar style="auto"/>
     </View>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   container: {
@@ -24,6 +23,6 @@ const styles = StyleSheet.create({
   text: {
     color: "#C52C0B",
     fontWeight: "bold",
-    fontSize: 60,
+    fontSize: 50,
   },
 });
