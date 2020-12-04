@@ -8,7 +8,7 @@ export default function App() {
       <View style={styles.fillerContainer}></View>
 
       <View style={styles.titleContainer}>
-        <Text style={styles.text}>Apple Watch Ver 0.1</Text>
+        <Text style={styles.text}>Hello World! -Marcus</Text>
       </View>
 
       <View style={styles.fillerContainer}></View>
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   text: {
     color: "#C52C0B",
     fontWeight: "bold",
+    textAlign: "center",
 
     fontSize: 50,
   },
